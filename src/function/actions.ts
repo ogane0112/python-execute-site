@@ -15,7 +15,7 @@ declare global {
 
 // GoogleGenerativeAI インスタンスの型定義
 const genAI: GoogleGenerativeAI = new GoogleGenerativeAI(
-  process.env.NEXT_PUBLIC_API_KEY
+  process.env.API_KEY
 );
 
 // run 関数の型定義
